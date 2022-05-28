@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="3d Maze" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/3d Maze" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="D:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/3d Maze" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="D:/Program Files/CodeBlocks/MinGW/bin" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add library="freeglut" />
+			<Add library="opengl32" />
+			<Add library="glu32" />
+			<Add library="winmm" />
+			<Add library="gdi32" />
+			<Add directory="D:/Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="include/CameraControl.h" />
+		<Unit filename="include/Color.h" />
+		<Unit filename="include/Dimensions.h" />
+		<Unit filename="include/Maze.h" />
+		<Unit filename="include/Point.h" />
+		<Unit filename="include/SkyBox.h" />
+		<Unit filename="include/Terrain.h" />
+		<Unit filename="include/Wall.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CameraControl.cpp" />
+		<Unit filename="src/Color.cpp" />
+		<Unit filename="src/Dimensions.cpp" />
+		<Unit filename="src/Maze.cpp" />
+		<Unit filename="src/Point.cpp" />
+		<Unit filename="src/SkyBox.cpp" />
+		<Unit filename="src/Terrain.cpp" />
+		<Unit filename="src/Wall.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

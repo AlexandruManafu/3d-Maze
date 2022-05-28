@@ -1,0 +1,100 @@
+# depslib dependency file v1.0
+1653752465 source:d:\projects\3d maze\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	"Wall.h"
+	"Point.h"
+	<stdio.h>
+	<iostream>
+	<string>
+	"CameraControl.h"
+	"Maze.h"
+	"Terrain.h"
+	"SkyBox.h"
+
+1645692503 d:\program files\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1645694644 d:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1645694652 d:\program files\codeblocks\mingw\include\gl\gl.h
+
+1645694664 d:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1653579550 source:d:\projects\3d maze\src\point.cpp
+	"Point.h"
+
+1653579518 d:\projects\3d maze\include\point.h
+
+1653741704 source:d:\projects\3d maze\src\wall.cpp
+	"Wall.h"
+	"Point.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<string>
+
+1653651628 d:\projects\3d maze\include\wall.h
+	"Point.h"
+	"Dimensions.h"
+	"Color.h"
+	<string>
+
+1653746644 source:d:\projects\3d maze\src\cameracontrol.cpp
+	"CameraControl.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<iostream>
+
+1653741828 d:\projects\3d maze\include\cameracontrol.h
+	<Point.h>
+	<math.h>
+
+1653752304 source:d:\projects\3d maze\src\maze.cpp
+	"Maze.h"
+	"Color.h"
+	<iostream>
+
+1653752311 d:\projects\3d maze\include\maze.h
+	"Wall.h"
+	"Dimensions.h"
+	<list>
+
+1653641965 d:\projects\3d maze\include\dimensions.h
+
+1653641952 source:d:\projects\3d maze\src\dimensions.cpp
+	"Dimensions.h"
+
+1653652421 d:\projects\3d maze\include\color.h
+	<string>
+
+1653746369 source:d:\projects\3d maze\src\color.cpp
+	"Color.h"
+
+1653742905 source:d:\projects\3d maze\src\terrain.cpp
+	"Terrain.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1653740416 d:\projects\3d maze\include\terrain.h
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1653744196 source:d:\projects\3d maze\src\skybox.cpp
+	"SkyBox.h"
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1653743231 d:\projects\3d maze\include\skybox.h
+
